@@ -1,0 +1,95 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.container {
+    width: 400px;
+    text-align: center;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+h2 {
+    background-color: navy;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.login-box {
+    margin-top: 20px;
+}
+
+.input-field {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.login-btn, .forgot-btn {
+    width: 48%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-btn {
+    background-color: #007bff;
+    color: white;
+   
+}
+
+.forgot-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+
+.google-login {
+    margin-top: 20px;
+}
+
+.google-login p {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.google-btn {
+    background-color: #dd4b39;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    cursor: pointer;
+}
+
+.google-icon {
+    width: 20px;
+    margin-right: 10px;
+}

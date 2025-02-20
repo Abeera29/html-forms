@@ -3,23 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Air University Student Portal</title>
+    <title>AU Student Portal</title>
+    <link rel="icon" href="images/logo.jpg">
+    <link rel="stylesheet" href="task2.css">
 </head>
 <body>
     <div class="container">
         <h2>Air University Student Portal</h2>
-        <div class="input">
-        <input type="text" placeholder="Enter your ID" class="input-field">
-      <br>
-      <br>
-
-        <input type="password" placeholder="Enter your password" class="input-field">
-        <br>
-        <br>
+        <div class="login-box">
+            <input type="text" placeholder="Enter Student ID" class="input-field">
+            <input type="password" placeholder="Password" class="input-field">
+            <div class="buttons">
+                <button class="login-btn">Login</button>
+                <button class="forgot-btn">Forgot</button>
+            </div>
         </div>
-<div class="buttons">
-        <button class="login-btn">Login</button>
-        <button class="forgot-btn">Forgot</button> 
+        <div class="google-login">
+            <p>Use AU Student LMS Authentication to Login</p>
+            <button class="google-btn">
+                <img src="images/g.png" alt="Google" class="google-icon">
+                Sign in with Google
+            </button>
         </div>
     </div>
 </body>
